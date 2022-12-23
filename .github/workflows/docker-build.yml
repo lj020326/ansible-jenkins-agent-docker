@@ -22,7 +22,7 @@ jobs:
     # See https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2004-README.md
     # runs-on: ubuntu-latest
     # container:
-    #   image: nabla/ansible-jenkins-slave-docker:1.0.16
+    #   image: lj020326/ansible-jenkins-slave-docker:1.0.16
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
@@ -60,13 +60,13 @@ jobs:
           build-args: |
             ANSIBLE_VAULT_PASSWORD=${{ secrets.ANSIBLE_VAULT_PASSWORD }}
           #            --squash
-          #  tags: nabla/ansible-jenkins-slave-docker:latest,nabla/ansible-jenkins-slave-docker:${{ github.sha }}
-          tags: nabla/ansible-jenkins-slave-docker:latest
+          #  tags: lj020326/ansible-jenkins-slave-docker:latest,lj020326/ansible-jenkins-slave-docker:${{ github.sha }}
+          tags: lj020326/ansible-jenkins-slave-docker:latest
 
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: nabla/ansible-jenkins-slave-docker:latest
+          image-ref: lj020326/ansible-jenkins-slave-docker:latest
           format: template
           template: "@/contrib/sarif.tpl"
           output: trivy-results.sarif
