@@ -58,7 +58,7 @@ pre-commit install
 - Requires Ansible core 2.13.2 or newer
 - Expects Ubuntu
 
-This playbook deploy a very basic jenkins slave with all the required tool needed for a developper or buildmaster or devops to work on NABLA projects.
+This playbook deploy a very basic jenkins slave with all the required tool needed for a developer or buildmaster or devops to work on NABLA projects.
 This playbook is be used by [Docker Hub][3] to create a [Docker][1] image.
 
 Goal of this project is to integrate of several roles done by the community.
