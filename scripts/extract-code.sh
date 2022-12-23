@@ -14,7 +14,7 @@ source "${WORKING_DIR}/step-0-color.sh"
 #git remote add origin https://github.com/AlbanAndrieu/ansible-swarm.git
 #git push -u origin master
 
-echo -e "${magenta} git clone https://github.com/AlbanAndrieu/ansible-jenkins-slave-docker.git ${HOME}/ansible-jenkins-slave-docker"
+echo -e "${magenta} git clone https://github.com/lj020326/ansible-jenkins-agent-docker.git ${HOME}/ansible-jenkins-slave-docker"
 
 #first run in ansible-nabla root
 cd "${HOME}/ansible-nabla"

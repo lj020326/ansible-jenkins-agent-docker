@@ -5,10 +5,10 @@
 
 [![License](http://img.shields.io/:license-apache-blue.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0.html)
 [![Travis CI](https://img.shields.io/travis/AlbanAndrieu/ansible-jenkins-slave-docker.svg?style=flat)](https://travis-ci.org/AlbanAndrieu/ansible-jenkins-slave-docker)
-[![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-jenkins-slave-docker.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-jenkins-slave-docker/tree/master)
+[![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-jenkins-slave-docker.svg?style=flat-square)](https://github.com/lj020326/ansible-jenkins-agent-docker/tree/master)
 [![Ansible Galaxy](https://img.shields.io/badge/galaxy-albanandrieu.ansible--jenkins--slave--docker-660198.svg?style=flat)](https://galaxy.ansible.com/AlbanAndrieu/ansible-jenkins-slave-docker)
 [![Platforms](http://img.shields.io/badge/platforms-el%20/%20macosx%20/%20ubuntu-lightgrey.svg?style=flat)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/AlbanAndrieu/ansible-jenkins-slave-docker.svg)](https://github.com/AlbanAndrieu/ansible-jenkins-slave-docker/pulls)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/AlbanAndrieu/ansible-jenkins-slave-docker.svg)](https://github.com/lj020326/ansible-jenkins-agent-docker/pulls)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nabla/ansible-jenkins-slave-docker)](https://hub.docker.com/r/nabla/ansible-jenkins-slave-docker)<br/>
 
 # Table of contents
@@ -292,7 +292,7 @@ pre-commit run markdown-toc
 
 ### Contributing
 
-The [issue tracker](https://github.com/AlbanAndrieu/ansible-jenkins-slave-docker/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
+The [issue tracker](https://github.com/lj020326/ansible-jenkins-agent-docker/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
 
 For pull requests, editor preferences are available in the [editor config](.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
 
@@ -317,7 +317,7 @@ License
 
 ### Feedback, bug-reports, requests
 
-Are [welcome](https://github.com/AlbanAndrieu/ansible-jenkins-slave-docker/issues)!
+Are [welcome](https://github.com/lj020326/ansible-jenkins-agent-docker/issues)!
 
 ***
 
